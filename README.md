@@ -1,7 +1,26 @@
 # wine-prediction
 
+### Overview
 
-### Data Dictinary
+This wine data was taken from https://www.winemag.com/?s=&drink_type=wine.
+
+Predict the price of a bottle of wine based on various features.
+
+### Instructions
+
+- Download the json data
+- Read into Pandas, https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html
+- Perform EDA
+- Split Data into Train and Test datasets
+- Standardize features if necessary
+- Perform a `Ridge Regression` cross-validation on various values of `alpha`
+- Plot `R2` vs various levels of `alpha`
+- Plot `beta values` vs various levels of alpha
+- Choose the best `alpha`
+- Perform final model training using best `alpha`
+- Get final `R2` score for test dataset
+
+### Data Dictionary
 
 - country: The country that the wine is from
 - description
