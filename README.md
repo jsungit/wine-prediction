@@ -8,7 +8,7 @@ Predict the price of a bottle of wine based on various features.
 
 ### Instructions
 
-- Download the json data
+- Fork and Clone this repository
 - Read into Pandas, https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_json.html
 - Perform EDA
 - Split Data into Train and Test datasets
@@ -19,6 +19,8 @@ Predict the price of a bottle of wine based on various features.
 - Choose the best `alpha`
 - Perform final model training using best `alpha`
 - Get final `R2` score for test dataset
+- Add and commit any and all changes
+- Push your results back to your forked repository
 
 ### Data Dictionary
 
