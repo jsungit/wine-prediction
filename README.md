@@ -14,7 +14,7 @@ Predict the price of a bottle of wine based on various features.
 - Split Data into Train and Test datasets
 - Standardize features if necessary
 - Perform a `Ridge Regression` cross-validation on various values of `alpha`
-- Plot `R2` vs various levels of `alpha`
+- Plot `R2` vs various levels of `alpha` on training and validation sets
 - Plot `beta values` vs various levels of alpha
 - Choose the best `alpha`
 - Perform final model training using best `alpha`
